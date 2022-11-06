@@ -1,0 +1,18 @@
+.places {
+  text-align: center;
+}
+.places h1 {
+  text-align: left;
+}
+.place {
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  display: inline-block;
+  /* padding: 10px; */
+  margin: 20px;
+  text-align: center;
+  width: 390px;
+}
+.place-name {
+  font-size: 30px;
+}
