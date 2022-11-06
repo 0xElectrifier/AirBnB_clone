@@ -73,4 +73,5 @@ li.util-item {
 /* On Hovering on any div in section.filters, display element */
 section.filters div:hover .popover {
   display: block;
+  z-index: 1;
 }
