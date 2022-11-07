@@ -75,3 +75,16 @@ section.filters div:hover .popover {
   display: block;
   z-index: 1;
 }
+
+@media (max-width: 40rem) {
+  .filters {
+    height: 90px;
+  }
+  .locations,
+  .amenities-filters {
+    padding-left: 10px;
+  }
+  .button {
+    margin-right: 10px;
+  }
+}
