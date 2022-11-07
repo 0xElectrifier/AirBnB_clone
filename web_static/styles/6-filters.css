@@ -22,7 +22,7 @@
   /* vertical-align: middle; */
 }
 .locations,
-.amenities {
+.amenities-filters {
   display: inline-block;
   height: 100%;
   width: 25%;
@@ -34,12 +34,12 @@
   border-right: 1px solid #dddddd;
 }
 .locations h3,
-.amenities h3 {
+.amenities-filters h3 {
   font-weight: 600;
   margin: 13px 0 2px;
 }
 .locations h4,
-.amenities h4 {
+.amenities-filters h4 {
   font-weight: 400;
   margin: 2px 0 15px;
 }
