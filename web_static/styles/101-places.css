@@ -22,9 +22,6 @@
 .place-name {
   font-size: 30px;
 }
-.place-name_first {
-  display: inline-block;
-}
 .price_by_night {
   border: 4px solid #ff5a5f;
   border-radius: 50%;
@@ -122,4 +119,22 @@
 }
 .review-text {
   font-size: 12px;
+}
+@media (max-width: 40rem) {
+  .places .places_flex-box {
+    padding: 0;
+  }
+  .place-name_first {
+    display: inline-block;
+    position: relative;
+    /* right: 6%; */
+    left: -24px;
+    margin-bottom: 0;
+  }
+  .tv-icon,
+  .wifi-icon,
+  .pets-icon {
+    height: 25px;
+    width: 30px;
+  }
 }
