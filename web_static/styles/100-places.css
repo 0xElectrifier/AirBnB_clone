@@ -1,0 +1,126 @@
+.places {
+  text-align: center;
+}
+.places h1 {
+  text-align: left;
+}
+.places .places-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr repeat(1, 1fr);
+  padding: 0 50px;
+  /* grid-template-rows: repeat(2, 100px); */
+}
+.place-box {
+  border: 1px solid #ff5a5f;
+  border-radius: 4px;
+  display: inline-block;
+  /* padding: 10px; */
+  margin: 20px auto;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  width: 390px;
+}
+.place-name {
+  font-size: 30px;
+}
+.price_by_night {
+  border: 4px solid #ff5a5f;
+  border-radius: 50%;
+  color: #ff5a5f;
+  font-size: 30px;
+  height: 60px;
+  width: 60px;
+  min-width: 60px;
+  position: absolute;
+  top: 22px;
+  right: 16px;
+}
+.price {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 16px 0;
+}
+.information {
+  border: solid #dddddd;
+  border-width: 1px 0;
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  margin: 44px 0;
+  padding: 8px 16px;
+}
+.max_guest-icon {
+  background: url("../images/icon_group.png");
+}
+.number_rooms-icon {
+  background: url("../images/icon_bed.png");
+}
+.number_bathrooms-icon {
+  background: url("../images/icon_bath.png");
+}
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+  /* margin: 10px auto; */
+  width: 100px;
+}
+.max_guest-icon,
+.number_rooms-icon,
+.number_bathrooms-icon {
+  height: 40px;
+  width: 50px;
+  margin: auto;
+}
+.user,
+.description {
+  text-align: left;
+}
+
+/* Amenities */
+.amenities,
+.reviews {
+  margin-top: 40px;
+  text-align: left;
+}
+.h2-title {
+  border-bottom: 1px solid #dddddd;
+  font-size: 16px;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.tv-icon {
+  background-image: url("../images/icon_tv.png");
+}
+.wifi-icon {
+  background-image: url("../images/icon_wifi.png");
+}
+.pets-icon {
+  background-image: url("../images/icon_pets.png");
+}
+.tv-icon,
+.wifi-icon,
+.pets-icon {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  height: 35px;
+  width: 40px;
+  vertical-align: middle;
+}
+.amenities ul li p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Reviews */
+.review-info {
+  font-size: 14px;
+}
+.review-text {
+  font-size: 12px;
+}
