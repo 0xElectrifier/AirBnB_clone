@@ -129,9 +129,9 @@
     display: block;
     margin: 25px auto;
     width: 70%;
-    /* position: relative;
-    /* right: 6%;
-    left: -24px; */
+    position: relative;
+    right: 6%;
+    left: -24px;
     margin-bottom: 0;
   }
   .tv-icon,
