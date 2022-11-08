@@ -79,16 +79,27 @@ section.filters div:hover .popover {
 }
 
 @media (max-width: 40rem) {
-  /* .filters {
+  .filters {
     height: 90px;
-  } */
+  }
   .locations,
   .amenities-filters {
     padding-left: 10px;
     width: 35%;
   }
+  .locations h4,
+  .amenities-filters h4 {
+    margin-bottom: 19px;
+    height: 32px;
+  }
+  .popover {
+    padding-left: 10px;
+  }
   .button {
     margin-right: 10px;
+  }
+  .cities {
+    padding-left: 20px;
   }
   /* Expand column in filer on hover */
   section.filters div:hover.locations,
