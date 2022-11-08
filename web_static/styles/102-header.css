@@ -1,0 +1,26 @@
+header {
+  background-color: white;
+  border-bottom: 1px solid #cccccc;
+  height: 70px;
+  width: 100%;
+}
+.icon-flex {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+}
+.brand-icon {
+  background: url("../images/icon_brand.png") no-repeat;
+  background-size: cover;
+  display: inline-block;
+  margin: 0 8px 0 12px;
+  height: 48px;
+  width: 48px;
+}
+.brand-name {
+  display: inline-block;
+}
+.brand-icon,
+.brand-name {
+  vertical-align: middle;
+}

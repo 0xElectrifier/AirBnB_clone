@@ -1,0 +1,109 @@
+.filters {
+  align-items: center;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  display: flex;
+  height: 70px;
+  width: 100%;
+  position: relative;
+}
+.button {
+  background-color: #ff5a5f;
+  border: 0;
+  border-radius: 4px;
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  font-size: 18px;
+  height: 48px;
+  width: 20%;
+  margin: 11px 0;
+  margin-right: 30px;
+  /* vertical-align: middle; */
+}
+.locations,
+.amenities-filters {
+  display: inline-block;
+  height: 100%;
+  width: 25%;
+  padding-left: 30px;
+  position: relative;
+  /* vertical-align: middle; */
+}
+.locations {
+  border-right: 1px solid #dddddd;
+}
+.locations h3,
+.amenities-filters h3 {
+  font-weight: 600;
+  margin: 13px 0 2px;
+}
+.locations h4,
+.amenities-filters h4 {
+  font-weight: 400;
+  margin: 2px 0 15px;
+}
+
+.popover {
+  background-color: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 0;
+  padding-left: 30px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+.state h3,
+li.city,
+li.util-item {
+  margin-bottom: 4px;
+}
+.cities {
+  list-style-type: none;
+}
+
+.pop .util-item {
+  margin: 8px;
+}
+
+/* On Hovering on any div in section.filters, display element */
+section.filters div:hover .popover {
+  display: block;
+  z-index: 1;
+}
+
+@media (max-width: 40rem) {
+  .filters {
+    height: 90px;
+  }
+  .locations,
+  .amenities-filters {
+    padding-left: 10px;
+    width: 30%;
+  }
+  .locations h4,
+  .amenities-filters h4 {
+    margin-bottom: 19px;
+    height: 32px;
+  }
+  .popover {
+    padding-left: 10px;
+  }
+  .button {
+    margin-right: 10px;
+  }
+  .cities {
+    padding-left: 20px;
+  }
+  /* Expand column in filer on hover */
+  section.filters div:hover.locations,
+  section.filters div:hover.amenities-filters {
+    width: 35%;
+  }
+}
