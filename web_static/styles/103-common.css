@@ -1,0 +1,20 @@
+body {
+  color: #484848;
+  font: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  size: 14px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 3%;
+  /* text-align: center; */
+}
+.button:hover {
+  opacity: 90%;
+}
+.body-div {
+  height: 20vh;
+}
