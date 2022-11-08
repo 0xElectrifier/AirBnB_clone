@@ -1,4 +1,5 @@
 .filters {
+  align-items: center;
   background-color: white;
   border: 1px solid #dddddd;
   border-radius: 4px;
@@ -70,6 +71,7 @@ li.util-item {
 .pop .util-item {
   margin: 8px;
 }
+
 /* On Hovering on any div in section.filters, display element */
 section.filters div:hover .popover {
   display: block;
@@ -77,14 +79,20 @@ section.filters div:hover .popover {
 }
 
 @media (max-width: 40rem) {
-  .filters {
+  /* .filters {
     height: 90px;
-  }
+  } */
   .locations,
   .amenities-filters {
     padding-left: 10px;
+    width: 35%;
   }
   .button {
     margin-right: 10px;
+  }
+  /* Expand column in filer on hover */
+  section.filters div:hover.locations,
+  section.filters div:hover.amenities-filters {
+    width: 35%;
   }
 }

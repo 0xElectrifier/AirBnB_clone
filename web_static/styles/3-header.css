@@ -13,7 +13,7 @@ header {
   background: url("../images/icon_brand.png") no-repeat;
   background-size: cover;
   display: inline-block;
-  margin: 0 20px;
+  margin: 0 8px 0 12px;
   height: 48px;
   width: 48px;
 }
